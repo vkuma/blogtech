@@ -1,0 +1,54 @@
+[{
+  "id": 0,
+  "img": "assets/images-demo/assets/600_400-1.jpg",
+  "date": "May 1st",
+  "title": "Be Yourself",
+  "content": "Be yourself; everyone else is already taken.",
+  "tag": "Quotes",
+  "author": "Oscar Wilde"
+}, {
+  "id": 1,
+  "img": "assets/images-demo/assets/600_400-1.jpg",
+  "date": "May 1st",
+  "title": "Be Yourself",
+  "content": "Be yourself; everyone else is already taken.",
+  "tag": "Quotes",
+  "author": "Oscar Wilde"
+}, {
+  "id": 2,
+  "img": "assets/images-demo/assets/600_400-1.jpg",
+  "date": "May 1st",
+  "title": "Be Yourself",
+  "content": "Be yourself; everyone else is already taken.",
+  "tag": "Quotes",
+  "author": "Oscar Wilde"
+}, {
+  "id": 3,
+  "img": "assets/images-demo/assets/600_400-1.jpg",
+  "date": "May 1st",
+  "title": "Be Yourself",
+  "content": "Be yourself; everyone else is already taken.",
+  "tag": "Quotes",
+  "author": "Oscar Wilde"
+}, {
+  "id": 4,
+  "img": "assets/images-demo/assets/600_400-1.jpg",
+  "date": "May 1st",
+  "title": "Be Yourself",
+  "content": "Be yourself; everyone else is already taken.",
+  "tag": "Quotes",
+  "author": "Oscar Wilde"
+}, {
+  "id": 5,
+  "name": "All the Single Ladies",
+  "company": "Airconix",
+  "email": "raymond.seabury@airconix.com"
+}, {
+  "id": 6,
+  "img": "assets/images-demo/assets/600_400-1.jpg",
+  "date": "May 1st",
+  "title": "Be Yourself",
+  "content": "Be yourself; everyone else is already taken.",
+  "tag": "Quotes",
+  "author": "Oscar Wilde"
+}]
