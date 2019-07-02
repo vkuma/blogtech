@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://epic-shirley-1fe2d8.netlify.com/* https://www.noisytechnology.com/:splat 301!

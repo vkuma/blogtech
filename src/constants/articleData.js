@@ -39,15 +39,15 @@ SITE.articles = [
         category: 'C Programming',
         link: '#/app/articleblog/article_1'
     }, {
-        img: 'assets/images-demo/assets/600_400-2.jpg',
-        date: 'May 1st',
-        title: "When You're in Love",
-        content: "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+        img: 'assets/article-assets/article2/covers/cover.jpg',
+        date: 'July 1st, 2019',
+        title: 'How to make design blocks form open-source, programmable circuit boards and other breakout boards',
+        content: 'Learn how to make design block from existing open-source EagleCad files for later use!',
         tag: 'Quotes',
-        author: 'Dr. Seuss',
-        avatar: 'assets/images-demo/avatars/5.jpg',
-        category: 'Web Design',
-        link: '#/app/articleblog/article_1'
+        author: 'Vin Kumar',
+        avatar: 'assets/article-assets/avatars/vinpic.jpg',
+        category: 'EagleCAD',
+        link: '#/app/articleblog/article_2'
     }, {
         img: 'assets/images-demo/assets/600_400-3.jpg',
         date: 'May 1st',
