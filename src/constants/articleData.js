@@ -41,7 +41,7 @@ SITE.articles = [
     }, {
         img: 'assets/article-assets/article2/covers/cover.jpg',
         date: 'July 1st, 2019',
-        title: 'How to make design blocks form open-source, programmable circuit boards and other breakout boards',
+        title: 'Creating design blocks from open-source breakout boards in EagleCAD',
         content: 'Learn how to make design block from existing open-source EagleCad files for later use!',
         tag: 'Quotes',
         author: 'Vin Kumar',
@@ -49,15 +49,15 @@ SITE.articles = [
         category: 'EagleCAD',
         link: '#/app/articleblog/article_2'
     }, {
-        img: 'assets/images-demo/assets/600_400-3.jpg',
+        img: 'assets/article-assets/article3/covers/cover.jpg',
         date: 'May 1st',
-        title: 'Once is Enough',
-        content: 'You only live once, but if you do it right, once is enough.',
+        title: 'Making a Portable, Compact, Level Warning System Pt.1',
+        content: 'Creating a level warning system that detects a gradual change in in position from the transceiver and sends an alert to the receiver device.  ',
         tag: 'Quotes',
-        author: 'Mae West',
-        avatar: 'assets/images-demo/avatars/5.jpg',
+        author: 'Vin Kumar',
+        avatar: 'assets/article-assets/avatars/vinpic.jpg',
         category: 'Development',
-        link: '#/app/articleblog/article_1'
+        link: '#/app/articleblog/article_3'
     }, {
         img: 'assets/images-demo/assets/600_400-4.jpg',
         date: 'May 1st',
