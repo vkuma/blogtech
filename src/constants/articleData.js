@@ -19,15 +19,15 @@ SITE.headerLink = {
 
 SITE.articles = [
     {
-        img: 'assets/article-assets/articleTemp/covers/cover.jpg',
-        date: 'May 18th, 2019',
-        title: 'Template Title',
+        img: 'assets/article-assets/article0/covers/cover.jpg',
+        date: 'August 20th, 2019',
+        title: 'Making a High Precision Hot Wire Cutter from an Old ATX Computer PSU',
         content: 'Abstract',
         tag: 'Quotes',
         author: 'Vin Kumar',
         avatar: 'assets/article-assets/avatars/vinpic.jpg',
-        category: 'Category',
-        link: '#/app/articleblog/article_template'
+        category: 'Build',
+        link: '#/app/articleblog/article_0'
     }, {
         img: 'assets/article-assets/article1/covers/cover.jpg',
         date: 'May 18th, 2019',
