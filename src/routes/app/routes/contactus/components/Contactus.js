@@ -32,7 +32,7 @@ const Contactus = () => (
                 subheader="April 24, 2019"
             />
             <CardContent className="box-body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur necessitatibus ea possimus est quis cumque vel saepe. Eum, quas, ducimus.</p>
+              <p>I'm pretty social, so if you want to contact me for any reason, even if just for a chat. Give me a ring.</p>
               <div className="divider my-4 divider-solid" />
               <p>75 Laurier Ave E<br /> Ottawa, ON. <br /> K1N 6N5</p>
               <div className="divider my-4 divider-solid" />
