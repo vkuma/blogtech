@@ -22,7 +22,7 @@ SITE.articles = [
         img: 'assets/article-assets/article0/covers/cover.jpg',
         date: 'August 20th, 2019',
         title: 'Making a High Precision Hot Wire Cutter from an Old ATX Computer PSU',
-        content: 'Abstract',
+        content: 'Learn how a hot wire cutter works and how to create one from scratch using a computer\'s old PSU as a power bench and some PVC.',
         tag: 'Quotes',
         author: 'Vin Kumar',
         avatar: 'assets/article-assets/avatars/vinpic.jpg',
