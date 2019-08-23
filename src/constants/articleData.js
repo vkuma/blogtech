@@ -3,6 +3,7 @@ const SITE = {
     home: '#/app/home',
     home2: '/app/home',
     productLink: 'https://themeforest.net/item/material-design-reactjs-admin-web-app-with-bootstrap-4/19582625',
+    gitLink: 'https://github.com/vkuma',
     user: 'Vin',
     login: '#/user/login',
     signUp: '#/user/sign-up',

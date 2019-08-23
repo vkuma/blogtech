@@ -9,6 +9,7 @@ import {
 } from 'actions/settingsActions';
 import SidenavContent from './SidenavContent';
 import DEMO from 'constants/demoData';
+import SITE from 'constants/articleData';
 
 class Sidebar extends React.Component {
 
@@ -66,7 +67,7 @@ class Sidebar extends React.Component {
             </g>
           </svg>
           <Link to="/" className="brand">{APPCONFIG.brand}</Link>
-          <a href={DEMO.link} className="collapsednav-toggler" onClick={this.onToggleCollapsedNav}>
+          <a href={SITE.gitLink} className="collapsednav-toggler" onClick={this.onToggleCollapsedNav}>
             {toggleIcon}
           </a>
         </section>
@@ -78,7 +79,7 @@ class Sidebar extends React.Component {
         <section className="sidebar-footer">
           <ul className="nav">
             <li>
-              <a target="_blank" href={DEMO.productLink}>
+              <a target="_blank" href={SITE.gitLink}>
                 <i className="nav-icon material-icons">help</i>
                 <span className="nav-text"><span>Help</span> & <span>Support</span></span>
               </a>

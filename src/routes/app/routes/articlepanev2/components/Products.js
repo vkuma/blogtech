@@ -26,7 +26,7 @@ class Page extends React.Component {
                                       </div>
                                       <div className="card__body card-white">
                                           <div className="card__title">
-                                              <a href="{article.link}">{article.title}</a>
+                                              <a href={article.link}>{article.title}</a>
                                               <span>{article.category}</span>
                                           </div>
                                           <div className="card__price">
