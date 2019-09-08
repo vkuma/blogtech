@@ -38,10 +38,6 @@ class ArticleContent extends React.Component {
             <div className="container">
                 <div className="">
                     <CardContent className="box-body">
-                        <h6>Sub-Title</h6>
-
-                        <p>Sentence.</p>
-
 
                         <p>This article will be a complete overhaul of the Level Warning system from the last article. If you haven&rsquo;t checked it out, I strongly urge you to read that article before continuing with this one.</p>
                         <p>The warning system shown in the previous article was designed completely with the client needs in mind. Often utilizing different systems and components to serve just that need, however, this did not take into consideration with the minute budget we had to deal with.</p>
