@@ -59,6 +59,16 @@ SITE.articles = [
         avatar: 'assets/article-assets/avatars/vinpic.jpg',
         category: 'Development',
         link: '#/app/articleblog/article_3'
+    }, {
+        img: 'assets/article-assets/article4/covers/cover.jpg',
+        date: 'September 8th, 2019',
+        title: 'Redesigning the Level Warning System',
+        content: 'Creating a level warning system that detects a gradual change in in position from the transceiver and sends an alert to the receiver device.  ',
+        tag: 'Quotes',
+        author: 'Vin Kumar',
+        avatar: 'assets/article-assets/avatars/vinpic.jpg',
+        category: 'Build',
+        link: '#/app/articleblog/article_4'
     }
 ];
 
