@@ -25,8 +25,7 @@ class ArticleMarkup extends React.Component {
             <article className="article">
                 <div className="pt-sm-4">
                     <div className="row">
-
-                        <div className="col-xl-6">
+                        <div className="col-xl-12">
                             <Card className="box box-transparent">
                                 <CardHeader
                                     title={article.title}

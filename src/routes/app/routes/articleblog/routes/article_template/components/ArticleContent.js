@@ -35,7 +35,7 @@ class ArticleContent extends React.Component {
 
     render(){
         return(
-            <div className="container">
+            <div className="container-fluid">
                 <div className="">
                     <CardContent className="box-body">
                         <h6>Sub-Title</h6>

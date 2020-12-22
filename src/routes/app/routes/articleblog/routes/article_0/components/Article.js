@@ -42,6 +42,12 @@ const styles = {
     nopadding: {
         paddingRight: 0,
         paddingLeft: 0,
+        margin: 0,
+    },
+    somepadding: {
+        paddingRight: 0,
+        paddingLeft: 0,
+        margin: 0,
     }
 };
 
@@ -61,9 +67,9 @@ const ArticleCard = () => (
     <QueueAnim type="bottom" className="ui-animate">
 
         <div key="1"><Hero /></div>
-        <div className='container' style={styles.nopadding}>
+        <div className='container-fluid' > 
             <div className='row'>
-                <div key="2" className="col-sm-8"><ArticleMarkup /></div>
+                <div key="2" className="col-sm-8" ><ArticleMarkup /></div>
                 <div key="3" className="col-sm-4" style={styles.nopadding}><ArticlePanev2 /></div>
             </div>
         </div>

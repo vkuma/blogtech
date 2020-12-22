@@ -35,7 +35,7 @@ class ArticleContent extends React.Component {
 
     render(){
         return(
-            <div className="container">
+            <div className="container-fluid">
                 <div className="">
                     <CardContent className="box-body">
                         <h6>Understanding the Basics</h6>
@@ -75,9 +75,16 @@ class ArticleContent extends React.Component {
                         <p>For this project we will use a 20MHz frequency, setting the Osc type as HS and the  C1 and C2 as 15-33pF.</p>
                         <p> For this project I will use the 33pF capacitors.
                             So, from this table we can design the circuit as:</p>
-                        <p>For this project we will use a 20MHz frequency, setting the Osc type as HS and the  C1 & C2 as 15-33pF. For this project I will use the 33pF capacitors.</p>
-                        <p>So, from this table we can design the circuit as:</p>
+                        {/* sdasdsadasdasdasd */}
+                        <div className="row">
+                            <figure className="col-lg-6 mx-auto d-block" >
+                                <Image className="img-fluid" src={process.env.PUBLIC_URL + '/assets/article-assets/article1/img/fig_3.png'} alt="Alps" fluid/>
+                            </figure>
+                        </div>
 
+                        <p>For this project we will use a 20MHz frequency, setting the Osc type as HS and the  C1 & C2 as 15-33pF. For this project I will use the 33pF capacitors.</p>
+                        
+                        <p>So, from this table we can design the circuit as:</p>
                         <div className="row">
                             <figure className="col-lg-6 mx-auto d-block" >
                                 <Image className="img-fluid" src={process.env.PUBLIC_URL + '/assets/article-assets/article1/img/math/math_1.png'} alt="Alps" fluid/>
@@ -121,7 +128,7 @@ class ArticleContent extends React.Component {
 
                         <p>Create a new project.</p>
 
-                        <p>File > New Project </p>
+                        <p>File {'>'} New Project </p>
                         <div className="row">
                             <figure className="col-lg-6 mx-auto d-block" >
                                 <Image className="img-fluid" src={process.env.PUBLIC_URL + '/assets/article-assets/article1/img/mpfig/mpfig_1.png'} alt="Alps" fluid/>
@@ -201,7 +208,7 @@ class ArticleContent extends React.Component {
 
                         <p>Once created, open the main folder:</p>
 
-                        <p> [right-click] Header Files > New > C Header File   This is to create a configuration file for our main C script.</p>
+                        <p> [right-click] Header Files {'>'} New {'>'} C Header File   This is to create a configuration file for our main C script.</p>
 
                         <div className="row">
                             <figure className="col-lg-6 mx-auto d-block" >
@@ -245,7 +252,7 @@ class ArticleContent extends React.Component {
 
                         <p>To do this simply:</p>
 
-                        <p> Window > Target Memory Views > Configuration Bits</p>
+                        <p> Window {'>'} Target Memory Views {'>'} Configuration Bits</p>
 
                         <div className="row">
                             <figure className="col-lg-6 mx-auto d-block" >
@@ -284,7 +291,7 @@ class ArticleContent extends React.Component {
 
                         <p>Now we can create our main C script:</p>
 
-                        <p>[right-click] Source Files > New > C Main File</p>
+                        <p>[right-click] Source Files {'>'} New {'>'} C Main File</p>
 
                         <p>This is to create an empty C file.</p>
 

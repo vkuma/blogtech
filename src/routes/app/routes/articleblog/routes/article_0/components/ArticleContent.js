@@ -27,6 +27,22 @@ Prism.plugins.NormalizeWhitespace.setDefaults({
     'right-trim': true,
 });
 
+const styles = {
+    vidContainer: {
+        position: 'relative',
+        overflow: 'hidden',
+        paddingTop: "56.25%",
+    },
+    vidiFrame: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        border: 0,
+    }
+};
+
 class ArticleContent extends React.Component {
 
     componentDidMount() {
@@ -35,7 +51,7 @@ class ArticleContent extends React.Component {
 
     render(){
         return(
-            <div className="container">
+            <div className="container-fluid">
                 <div className="">
                     <CardContent className="box-body">
 
@@ -135,10 +151,18 @@ class ArticleContent extends React.Component {
                         </div>
 
                         <p>You&rsquo;re done! When you switch the power bench on, you should be able to cut through the Styrofoam like butter. Here is what mine looked like</p>
+                        
 
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fzilJ7fVJAY" frameBorder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen></iframe>
+                        <div className="row">
+                            <figure className="col-lg-12 mx-auto d-block" >
+                                <div style={styles.vidContainer}>
+                                    <iframe style={styles.vidiFrame} src="https://www.youtube.com/embed/fzilJ7fVJAY" frameBorder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen>
+                                    </iframe>
+                                </div>                            
+                            </figure>
+                        </div>
 
                         <p>Now although it&rsquo;s functional and works with different voltages it&rsquo;s not precise. This is simply because the tension in the wire is dependent on how tight you tie the string around the bolts. Now in this newly redesigned version, we will fix that by using an extension spring and a Hipshot guitar tuner.</p>
                         <p>If you attach the extension spring to the top eye-bolt you can add some much-needed tension, which will help straighten out the guitar string. This is as seen below.</p>
@@ -151,9 +175,16 @@ class ArticleContent extends React.Component {
 
                         <p>This is how it looks like when you add a simple extension spring to the design.</p>
 
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IFst8UxoIgc" frameBorder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen></iframe>
+                        <div className="row">
+                            <figure className="col-lg-12 mx-auto d-block" >
+                                <div style={styles.vidContainer}>
+                                    <iframe style={styles.vidiFrame} src="https://www.youtube.com/embed/IFst8UxoIgc" frameBorder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen>
+                                    </iframe>
+                                </div>                            
+                            </figure>
+                        </div>
 
                         <p>For the last design change is for the bottom connection we will remove the eye-bolt completely and replace it with the hipshot guitar tuner as seen below. Just be sure to cut out the appropriate holes so it will fit inside the PVC housing.</p>
 

@@ -36,7 +36,7 @@ class ArticleContent extends React.Component {
     render(){
         console.log("hello");
         return(
-            <div className="container">
+            <div className="container-fluid">
                 <div className="">
                     <CardContent className="box-body">
                         <p>Arduino, SparkFun, and Adafruit are all companies that make a wide variety of open-source, pre-made boards all of which are incredibly useful for any type of projects. The problem comes, however, when these projects start getting complicated and connections to these boards start getting increasingly intricate. This can make prototyping very complicated or make the form factor of the final design much larger.</p>
