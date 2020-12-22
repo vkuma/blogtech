@@ -27,7 +27,7 @@ NoisyTechnology uses a number of open source projects to work properly:
 * [React Router](https://reactrouter.com/) - the rest api I like to use
 * [Netlify](https://www.netlify.com/) - For continuous deployment 
 * [Material UI](https://material-ui.com/) - To add that sense of style
-* [jQuery] - duh
+* [jQuery](https://jquery.com/) - duh
 
 Noisytechnology's public repo here -> [public repository](https://github.com/vkuma/blogtech)
 on GitHub.
@@ -79,23 +79,22 @@ Create new data entry
 Edit this line index: `const article = SITE.articles[0];`
  - in _**ArticleMarkup.js**_
  - and in _**Article.js**_
- - 
  
 Creating article image folder:-
  - public > article-assets > 
 
-Create folder name: aritcleN; where N is the next index in the created articles
-|---- articleN >
-|----|----| covers >
-|----|----|---- cover.jpg
-|----|----| img >
-|----|----|---- [all the img]
+Create folder name: aritcleN; where N is the next index in the created articles\
+|---- articleN >\
+|----|----| > covers >\
+|----|----|---- cover.jpg\
+|----|----| > img >\
+|----|----|---- [all the img]\
 
 Adding the routes:-
  - src > routes > app > routes > articleblog > index.js
 
-Add the following lines as seen in the file:
-``import ArticleN from './routes/article_N/';``
+Add the following lines as seen in the file:\
+``import ArticleN from './routes/article_N/';``\
 ``<Route path={`${match.url}/article_2`} component={Article2}/>``
 
 ### Commit and Push
